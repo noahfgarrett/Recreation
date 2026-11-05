@@ -1,0 +1,19 @@
+node_modules/
+dist/
+data/
+.recreation-data/
+.claude/
+.playwright-mcp/
+.venv/
+__pycache__/
+*.pyc
+backend/build/
+target/
+src-tauri/target/
+*.log
+.DS_Store
+
+# Local QA artifacts and generated screenshots
+/*.png
+localhost-*.md
+recordings/

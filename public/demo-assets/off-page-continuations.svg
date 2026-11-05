@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow-left" markerWidth="18" markerHeight="14" refX="2" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M16 1 L2 7 L16 13 Z" fill="#17212f"/>
+    </marker>
+    <marker id="arrow-right" markerWidth="18" markerHeight="14" refX="16" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 1 L16 7 L2 13 Z" fill="#17212f"/>
+    </marker>
+    <marker id="arrow-down" markerWidth="14" markerHeight="18" refX="7" refY="16" orient="auto" markerUnits="strokeWidth">
+      <path d="M1 2 L7 16 L13 2 Z" fill="#17212f"/>
+    </marker>
+    <style>
+      .pipe { fill: none; stroke: #17212f; stroke-width: 2.4; stroke-linecap: square; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #17212f; stroke-width: 1.4; stroke-dasharray: 5 5; }
+      .equip { fill: #fff; stroke: #17212f; stroke-width: 2.4; }
+      .label { fill: #17212f; font-family: Arial, sans-serif; font-size: 19px; font-weight: 700; }
+      .small { fill: #17212f; font-family: Arial, sans-serif; font-size: 13px; font-weight: 700; }
+      .micro { fill: #17212f; font-family: Arial, sans-serif; font-size: 10px; }
+      .edge { fill: #fff; stroke: #17212f; stroke-width: 2.2; }
+      .soft { fill: #f8fafc; stroke: #17212f; stroke-width: 1.6; }
+      .match { fill: none; stroke: #109176; stroke-width: 5; opacity: 0.82; stroke-linecap: round; }
+      .risk { fill: none; stroke: #b7791f; stroke-width: 5; opacity: 0.82; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="52" y="48" width="1496" height="786" fill="#ffffff" stroke="#d8e0ea" stroke-width="1.2"/>
+
+  <g opacity="0.55">
+    <path d="M52 165 H1548 M52 285 H1548 M52 405 H1548 M52 525 H1548 M52 645 H1548 M52 765 H1548" stroke="#e9eef5" stroke-width="1"/>
+    <path d="M165 48 V834 M285 48 V834 M405 48 V834 M525 48 V834 M645 48 V834 M765 48 V834 M885 48 V834 M1005 48 V834 M1125 48 V834 M1245 48 V834 M1365 48 V834 M1485 48 V834" stroke="#e9eef5" stroke-width="1"/>
+  </g>
+
+  <text x="78" y="82" class="label">DENSE P&amp;ID CONTINUATION EXAMPLE</text>
+  <text x="78" y="106" class="micro">Synthetic drawing fragment for demo - off-page lines intentionally exit sheet edges</text>
+  <text x="1362" y="813" class="small">SHEET 17 OF 42</text>
+
+  <g id="equipment">
+    <rect x="560" y="160" width="185" height="310" rx="16" class="equip"/>
+    <path d="M588 210 H718 M588 420 H718" class="pipe"/>
+    <text x="610" y="328" class="label">VSL-17</text>
+    <circle cx="930" cy="330" r="62" class="equip"/>
+    <path d="M893 330 C920 302 948 302 975 330" class="pipe"/>
+    <text x="890" y="420" class="label">P-17A</text>
+    <circle cx="1115" cy="330" r="62" class="equip"/>
+    <path d="M1078 330 C1105 302 1133 302 1160 330" class="pipe"/>
+    <text x="1074" y="420" class="label">P-17B</text>
+    <rect x="315" y="510" width="155" height="178" rx="8" class="equip"/>
+    <text x="350" y="606" class="label">TK-04</text>
+    <rect x="1230" y="165" width="130" height="190" rx="8" class="equip"/>
+    <text x="1262" y="268" class="label">SC-02</text>
+    <circle cx="285" cy="735" r="54" class="equip"/>
+    <text x="242" y="814" class="label">MP-02S</text>
+    <circle cx="455" cy="735" r="54" class="equip"/>
+    <text x="412" y="814" class="label">MP-02A</text>
+  </g>
+
+  <g id="main-lines">
+    <path d="M0 500 H128 L168 470 H310 L350 500 H560" class="pipe" marker-start="url(#arrow-left)"/>
+    <text x="92" y="487" class="small">50-STE-001-HC</text>
+    <path d="M0 640 H180 L215 610 H395 L430 640 H560" class="pipe" marker-start="url(#arrow-left)"/>
+    <text x="108" y="626" class="small">25-CND-002-HC</text>
+    <path d="M745 225 H1210 V146 H1600" class="pipe" marker-end="url(#arrow-right)"/>
+    <text x="915" y="137" class="small">100-VAP-017-NI</text>
+    <path d="M745 315 H868" class="pipe"/>
+    <path d="M992 315 H1053" class="pipe"/>
+    <path d="M1177 315 H1295 V472 H1600" class="pipe" marker-end="url(#arrow-right)"/>
+    <text x="1388" y="455" class="small">50-PRD-011-NI</text>
+    <path d="M745 430 H835 V560 H1600" class="pipe" marker-end="url(#arrow-right)"/>
+    <text x="1382" y="543" class="small">50-WTR-015-HI</text>
+    <path d="M560 390 H470 V322 H330 V250 H0" class="pipe" marker-end="url(#arrow-left)"/>
+    <text x="106" y="236" class="small">25-DRN-008-HC</text>
+    <path d="M655 470 V612 H735 V705 H1600" class="pipe" marker-end="url(#arrow-right)"/>
+    <text x="1360" y="688" class="small">25-P-005-NI</text>
+    <path d="M705 470 V575 H890 V790 H1600" class="pipe" marker-end="url(#arrow-right)"/>
+    <text x="1376" y="773" class="small">25-P-009-PP</text>
+    <path d="M650 160 V90 H1065 V48" class="pipe"/>
+    <path d="M1065 48 H1355 V165" class="pipe"/>
+    <path d="M392 688 V735 H231" class="pipe"/>
+    <path d="M392 688 V735 H509" class="pipe"/>
+    <path d="M285 681 V640" class="pipe"/>
+    <path d="M455 681 V640" class="pipe"/>
+  </g>
+
+  <g id="instrumentation">
+    <path d="M145 464 H242 V392 H356" class="thin"/>
+    <path d="M1015 405 V488 H1270 V612" class="thin"/>
+    <path d="M735 380 H860 V520 H1180" class="thin"/>
+    <path d="M310 250 V425 H430 V500" class="thin"/>
+    <path d="M1295 355 H1440 V472" class="thin"/>
+  </g>
+
+  <g id="valves-and-tags">
+    <g transform="translate(198 483)"><rect x="-13" y="-13" width="26" height="26" class="soft"/><path d="M-13 -13 L13 13 M13 -13 L-13 13" class="pipe"/></g>
+    <g transform="translate(354 483)"><rect x="-13" y="-13" width="26" height="26" class="soft"/><path d="M-13 -13 L13 13 M13 -13 L-13 13" class="pipe"/></g>
+    <g transform="translate(1010 315)"><rect x="-13" y="-13" width="26" height="26" class="soft"/><path d="M-13 -13 L13 13 M13 -13 L-13 13" class="pipe"/></g>
+    <g transform="translate(1210 146)"><rect x="-13" y="-13" width="26" height="26" class="soft"/><path d="M-13 -13 L13 13 M13 -13 L-13 13" class="pipe"/></g>
+    <g transform="translate(1388 560)"><rect x="-13" y="-13" width="26" height="26" class="soft"/><path d="M-13 -13 L13 13 M13 -13 L-13 13" class="pipe"/></g>
+    <g transform="translate(1360 705)"><rect x="-13" y="-13" width="26" height="26" class="soft"/><path d="M-13 -13 L13 13 M13 -13 L-13 13" class="pipe"/></g>
+    <g transform="translate(128 500)"><circle r="19" class="soft"/><text x="-11" y="5" class="small">PT</text></g>
+    <g transform="translate(315 500)"><circle r="19" class="soft"/><text x="-11" y="5" class="small">FT</text></g>
+    <g transform="translate(840 560)"><circle r="19" class="soft"/><text x="-11" y="5" class="small">LT</text></g>
+    <g transform="translate(1050 488)"><circle r="19" class="soft"/><text x="-11" y="5" class="small">TT</text></g>
+    <g transform="translate(1280 612)"><circle r="19" class="soft"/><text x="-11" y="5" class="small">FV</text></g>
+    <g transform="translate(1435 472)"><circle r="19" class="soft"/><text x="-11" y="5" class="small">PI</text></g>
+    <g transform="translate(1394 705)"><circle r="19" class="soft"/><text x="-11" y="5" class="small">TI</text></g>
+  </g>
+
+  <g id="edge-connectors">
+    <path d="M0 480 H80 L112 500 L80 520 H0 Z" class="edge"/>
+    <text x="12" y="506" class="small">FROM P-16</text>
+    <path d="M0 620 H82 L112 640 L82 660 H0 Z" class="edge"/>
+    <text x="14" y="646" class="small">CONDENSATE</text>
+    <path d="M1510 126 L1600 126 L1600 166 L1510 166 L1472 146 Z" class="edge"/>
+    <text x="1500" y="151" class="small">TO SC-03</text>
+    <path d="M1508 452 L1600 452 L1600 492 L1508 492 L1470 472 Z" class="edge"/>
+    <text x="1490" y="477" class="small">PROCESS</text>
+    <path d="M1508 540 L1600 540 L1600 580 L1508 580 L1470 560 Z" class="edge"/>
+    <text x="1490" y="565" class="small">AQUEOUS</text>
+    <path d="M1508 685 L1600 685 L1600 725 L1508 725 L1470 705 Z" class="edge"/>
+    <text x="1492" y="710" class="small">FEED</text>
+    <path d="M1508 770 L1600 770 L1600 810 L1508 810 L1470 790 Z" class="edge"/>
+    <text x="1492" y="795" class="small">RETURN</text>
+    <path d="M1010 842 V900" class="pipe" marker-end="url(#arrow-down)"/>
+    <text x="935" y="824" class="small">DRAIN TO OPEN HUB</text>
+  </g>
+
+  <g id="callouts">
+    <path d="M0 500 H112" class="match"/>
+    <path d="M1470 472 H1600" class="risk"/>
+    <path d="M1470 560 H1600" class="risk"/>
+    <path d="M1470 705 H1600" class="match"/>
+    <path d="M1470 790 H1600" class="match"/>
+    <text x="1188" y="100" class="micro">line exits sheet and must be reconciled elsewhere</text>
+    <text x="1270" y="523" class="micro">multiple edge arrows, similar labels</text>
+  </g>
+</svg>

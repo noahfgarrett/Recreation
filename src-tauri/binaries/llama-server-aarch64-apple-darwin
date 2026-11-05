@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "Placeholder llama-server. Replace this file with a vetted llama.cpp binary for production packaging." >&2
+exit 2

@@ -1,0 +1,476 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="3152" viewBox="0 0 1280 3152" fill="none">
+  <title>Recreation house-style P&amp;ID vector symbol master sheet</title>
+  <style>
+    .sheet { fill: #fff; }
+    .title { fill: #111827; font: 700 22px Arial, Helvetica, sans-serif; }
+    .subtitle { fill: #64748b; font: 700 11px Arial, Helvetica, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+    .cell { fill: transparent; stroke: #e2e8f0; stroke-width: 1; }
+    .label { fill: #334155; font: 700 12px Arial, Helvetica, sans-serif; text-anchor: middle; }
+    .sym { stroke: #111827; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+    .fill { fill: #fff; }
+    .solid { fill: #111827; stroke: #111827; }
+  </style>
+  <rect class="sheet" width="1280" height="3152"/>
+  <text class="title" x="40" y="42">Recreation house-style P&amp;ID Vector Pack</text>
+  <text class="subtitle" x="40" y="66">Transparent, editable SVG line symbols - recolor stroke/fill in Recreation</text>
+
+  <defs>
+    <g id="air_handler" class="sym">
+      <line x1="0" y1="52" x2="15" y2="52"/><line x1="85" y1="52" x2="100" y2="52"/>
+      <rect class="fill" x="16" y="20" width="68" height="60"/><circle cx="36" cy="50" r="13"/>
+      <path d="M27 50 C34 36 47 45 45 58"/><path d="M56 24 L72 76"/><path d="M66 24 L82 76"/>
+    </g>
+    <g id="boiler" class="sym">
+      <line x1="0" y1="52" x2="18" y2="52"/><line x1="82" y1="52" x2="100" y2="52"/>
+      <rect class="fill" x="20" y="14" width="60" height="72" rx="12"/><path d="M34 72 C28 50 47 48 46 28 C62 48 76 58 66 74"/>
+    </g>
+    <g id="check_valve" class="sym">
+      <line x1="0" y1="50" x2="100" y2="50"/><polygon class="fill" points="18 22 18 78 54 50"/>
+      <line x1="68" y1="24" x2="68" y2="76"/><path d="M58 32 C70 38 70 62 58 68"/>
+    </g>
+    <g id="chiller" class="sym">
+      <line x1="0" y1="52" x2="15" y2="52"/><line x1="85" y1="52" x2="100" y2="52"/>
+      <rect class="fill" x="16" y="18" width="68" height="64" rx="6"/><line x1="28" y1="38" x2="72" y2="38"/><line x1="28" y1="62" x2="72" y2="62"/><path d="M32 28 C42 54 58 46 68 74"/>
+    </g>
+    <g id="coil" class="sym">
+      <line x1="0" y1="52" x2="18" y2="52"/><line x1="82" y1="52" x2="100" y2="52"/>
+      <rect class="fill" x="20" y="20" width="60" height="60"/><path d="M30 76 L42 24 L54 76 L66 24 L76 76"/>
+    </g>
+    <g id="compressor" class="sym">
+      <line x1="0" y1="52" x2="20" y2="52"/><line x1="80" y1="52" x2="100" y2="52"/>
+      <circle class="fill" cx="50" cy="50" r="31"/><path d="M28 65 L70 50 L28 35 Z"/><path d="M26 88 L74 88"/><path d="M34 22 C48 12 66 16 76 30"/>
+    </g>
+    <g id="control_valve" class="sym">
+      <line x1="0" y1="52" x2="100" y2="52"/><polygon class="fill" points="18 24 18 80 50 52"/><polygon class="fill" points="82 24 82 80 50 52"/>
+      <line x1="50" y1="52" x2="50" y2="20"/><circle class="fill" cx="50" cy="14" r="10"/>
+    </g>
+    <g id="cooling_tower" class="sym">
+      <line x1="0" y1="52" x2="20" y2="52"/><line x1="80" y1="52" x2="100" y2="52"/>
+      <path class="fill" d="M28 14 L72 14 L82 86 L18 86 Z"/><line x1="30" y1="40" x2="70" y2="40"/><line x1="26" y1="66" x2="74" y2="66"/><path d="M40 14 C42 4 58 4 60 14"/>
+    </g>
+    <g id="drive" class="sym">
+      <line x1="0" y1="52" x2="24" y2="52"/><line x1="76" y1="52" x2="100" y2="52"/>
+      <rect class="fill" x="25" y="22" width="50" height="56"/><path d="M32 52 L40 34 L50 70 L60 34 L70 52"/>
+    </g>
+    <g id="dryer" class="sym">
+      <line x1="0" y1="52" x2="24" y2="52"/><line x1="76" y1="52" x2="100" y2="52"/>
+      <rect class="fill" x="26" y="15" width="21" height="70" rx="8"/><rect class="fill" x="53" y="15" width="21" height="70" rx="8"/><line x1="47" y1="52" x2="53" y2="52"/>
+    </g>
+    <g id="equipment" class="sym">
+      <line x1="0" y1="52" x2="18" y2="52"/><line x1="82" y1="52" x2="100" y2="52"/><rect class="fill" x="18" y="20" width="64" height="60" rx="4"/><line x1="18" y1="52" x2="82" y2="52"/>
+    </g>
+    <g id="fan" class="sym">
+      <line x1="0" y1="52" x2="20" y2="52"/><line x1="80" y1="52" x2="100" y2="52"/>
+      <circle class="fill" cx="50" cy="50" r="31"/><path d="M50 50 Q58 32 50 18"/><path d="M50 50 Q66 58 78 46"/><path d="M50 50 Q34 60 25 76"/><circle class="fill" cx="50" cy="50" r="4"/>
+    </g>
+    <g id="filter" class="sym">
+      <line x1="0" y1="52" x2="20" y2="52"/><line x1="80" y1="52" x2="100" y2="52"/><rect class="fill" x="22" y="22" width="56" height="56"/><line x1="32" y1="74" x2="50" y2="26"/><line x1="48" y1="74" x2="66" y2="26"/><line x1="28" y1="52" x2="72" y2="52"/>
+    </g>
+    <g id="flow_arrow" class="sym"><polygon class="solid" points="8 10 92 50 8 90"/></g>
+    <g id="flow_meter" class="sym">
+      <line x1="0" y1="52" x2="25" y2="52"/><line x1="75" y1="52" x2="100" y2="52"/><circle class="fill" cx="50" cy="52" r="25"/><path d="M36 60 L50 34 L64 60"/><line x1="40" y1="68" x2="60" y2="68"/>
+    </g>
+    <g id="gate_valve" class="sym">
+      <line x1="0" y1="50" x2="100" y2="50"/><polygon class="fill" points="16 18 16 82 50 50"/><polygon class="fill" points="84 18 84 82 50 50"/><line x1="50" y1="50" x2="50" y2="16"/><line x1="34" y1="16" x2="66" y2="16"/>
+    </g>
+    <g id="gauge" class="sym">
+      <line x1="50" y1="78" x2="50" y2="96"/><circle class="fill" cx="50" cy="48" r="30"/>
+      <path d="M30 57 A22 22 0 0 1 70 57"/><line x1="37" y1="55" x2="41" y2="51"/><line x1="63" y1="55" x2="59" y2="51"/>
+      <line x1="50" y1="50" x2="66" y2="37"/><circle class="solid" cx="50" cy="50" r="2.4"/>
+    </g>
+    <g id="heat_exchanger" class="sym">
+      <line x1="0" y1="52" x2="18" y2="52"/><line x1="82" y1="52" x2="100" y2="52"/><rect class="fill" x="20" y="18" width="60" height="64" rx="10"/><line x1="30" y1="34" x2="70" y2="34"/><line x1="30" y1="50" x2="70" y2="50"/><line x1="30" y1="66" x2="70" y2="66"/><line x1="38" y1="18" x2="38" y2="82"/><line x1="62" y1="18" x2="62" y2="82"/>
+    </g>
+    <g id="instrument" class="sym">
+      <line x1="50" y1="84" x2="50" y2="100"/><circle class="fill" cx="50" cy="46" r="34"/><line x1="34" y1="46" x2="66" y2="46"/><line x1="50" y1="30" x2="50" y2="62"/>
+    </g>
+    <g id="motor" class="sym">
+      <line x1="0" y1="52" x2="24" y2="52"/><line x1="76" y1="52" x2="100" y2="52"/><circle class="fill" cx="50" cy="50" r="28"/><path d="M34 64 L34 36 L50 54 L66 36 L66 64"/><path d="M30 84 L70 84"/>
+    </g>
+    <g id="offpage" class="sym"><polygon class="fill" points="4 12 72 12 96 50 72 88 4 88"/></g>
+    <g id="panel" class="sym">
+      <line x1="0" y1="52" x2="26" y2="52"/><line x1="74" y1="52" x2="100" y2="52"/><rect class="fill" x="28" y="14" width="44" height="72"/><line x1="36" y1="34" x2="64" y2="34"/><line x1="36" y1="50" x2="64" y2="50"/><line x1="36" y1="66" x2="64" y2="66"/>
+    </g>
+    <g id="pump" class="sym">
+      <line x1="0" y1="52" x2="22" y2="52"/><line x1="78" y1="52" x2="100" y2="52"/><circle class="fill" cx="50" cy="50" r="30"/><path d="M34 39 C48 22 74 36 72 50 C70 64 48 76 34 61"/><path d="M28 84 L72 84 L84 96 L16 96 Z"/>
+    </g>
+    <g id="reducer" class="sym">
+      <line x1="0" y1="50" x2="16" y2="50"/><line x1="84" y1="50" x2="100" y2="50"/><path class="fill" d="M16 28 L52 28 L84 40 L84 60 L52 72 L16 72 Z"/><line x1="52" y1="28" x2="52" y2="72"/>
+    </g>
+    <g id="relief_valve" class="sym">
+      <line x1="0" y1="58" x2="100" y2="58"/><polygon class="fill" points="20 30 20 86 54 58"/><line x1="66" y1="58" x2="66" y2="20"/><path d="M54 24 C62 8 78 8 86 24"/><line x1="70" y1="20" x2="70" y2="34"/>
+    </g>
+    <g id="separator" class="sym">
+      <line x1="0" y1="52" x2="22" y2="52"/><line x1="78" y1="52" x2="100" y2="52"/><path class="fill" d="M25 18 C25 10 75 10 75 18 L75 82 C75 90 25 90 25 82 Z"/><line x1="34" y1="40" x2="66" y2="40"/><path d="M33 66 C43 54 57 78 68 64"/>
+    </g>
+    <g id="skid" class="sym">
+      <line x1="0" y1="52" x2="16" y2="52"/><line x1="84" y1="52" x2="100" y2="52"/><rect class="fill" x="18" y="22" width="64" height="52"/><line x1="12" y1="88" x2="88" y2="88"/><line x1="34" y1="22" x2="34" y2="74"/><line x1="62" y1="22" x2="62" y2="74"/>
+    </g>
+    <g id="strainer" class="sym">
+      <line x1="0" y1="48" x2="20" y2="48"/><line x1="80" y1="48" x2="100" y2="48"/><path class="fill" d="M20 26 L70 26 L84 48 L70 70 L20 70 Z"/><path d="M40 70 L62 92"/><path d="M34 62 L52 32"/><path d="M48 66 L66 36"/>
+    </g>
+    <g id="tank" class="sym">
+      <line x1="0" y1="52" x2="22" y2="52"/><line x1="78" y1="52" x2="100" y2="52"/><path class="fill" d="M26 20 C26 10 74 10 74 20 L74 80 C74 90 26 90 26 80 Z"/><ellipse cx="50" cy="22" rx="24" ry="7"/><ellipse cx="50" cy="78" rx="24" ry="7"/>
+    </g>
+    <g id="terminal_unit" class="sym">
+      <line x1="0" y1="52" x2="20" y2="52"/><line x1="80" y1="52" x2="100" y2="52"/><rect class="fill" x="22" y="28" width="56" height="44"/><line x1="34" y1="40" x2="66" y2="40"/><line x1="34" y1="52" x2="66" y2="52"/><line x1="34" y1="64" x2="66" y2="64"/>
+    </g>
+    <g id="valve" class="sym">
+      <line x1="0" y1="50" x2="100" y2="50"/><polygon class="fill" points="16 18 16 82 50 50"/><polygon class="fill" points="84 18 84 82 50 50"/><line x1="84" y1="18" x2="84" y2="82"/>
+    </g>
+    <g id="vessel" class="sym">
+      <line x1="0" y1="52" x2="18" y2="52"/><line x1="82" y1="52" x2="100" y2="52"/><path class="fill" d="M22 16 C22 8 78 8 78 16 L78 84 C78 92 22 92 22 84 Z"/><line x1="50" y1="0" x2="50" y2="16"/><line x1="50" y1="84" x2="50" y2="100"/><line x1="22" y1="50" x2="78" y2="50"/>
+    </g>
+  </defs>
+  <g id="visible-symbol-index">
+  <text class="subtitle" x="40" y="74">Instruments</text>
+    <rect class="cell" x="40" y="92" width="150" height="104"/><use class="sym" href="#instrument" transform="translate(83 102) scale(0.64)"/><text class="label" x="115" y="184">Instrument</text>
+    <rect class="cell" x="190" y="92" width="150" height="104"/><use class="sym" href="#gauge" transform="translate(233 102) scale(0.64)"/><text class="label" x="265" y="184">Gauge</text>
+    <rect class="cell" x="340" y="92" width="150" height="104"/><use class="sym" href="#pressure_indicator" transform="translate(383 102) scale(0.64)"/><text class="label" x="415" y="184">Pressure Indicator</text>
+    <rect class="cell" x="490" y="92" width="150" height="104"/><use class="sym" href="#temperature_indicator" transform="translate(533 102) scale(0.64)"/><text class="label" x="565" y="184">Temperature Indicator</text>
+    <rect class="cell" x="640" y="92" width="150" height="104"/><use class="sym" href="#level_indicator" transform="translate(683 102) scale(0.64)"/><text class="label" x="715" y="184">Level Indicator</text>
+    <rect class="cell" x="790" y="92" width="150" height="104"/><use class="sym" href="#flow_meter" transform="translate(833 102) scale(0.64)"/><text class="label" x="865" y="184">Flow Meter</text>
+    <rect class="cell" x="940" y="92" width="150" height="104"/><use class="sym" href="#flow_transmitter" transform="translate(983 102) scale(0.64)"/><text class="label" x="1015" y="184">Flow Transmitter</text>
+    <rect class="cell" x="1090" y="92" width="150" height="104"/><use class="sym" href="#pressure_transmitter" transform="translate(1133 102) scale(0.64)"/><text class="label" x="1165" y="184">Pressure Transmitter</text>
+    <rect class="cell" x="40" y="204" width="150" height="104"/><use class="sym" href="#temperature_transmitter" transform="translate(83 214) scale(0.64)"/><text class="label" x="115" y="296">Temperature Transmitter</text>
+    <rect class="cell" x="190" y="204" width="150" height="104"/><use class="sym" href="#level_transmitter" transform="translate(233 214) scale(0.64)"/><text class="label" x="265" y="296">Level Transmitter</text>
+    <rect class="cell" x="340" y="204" width="150" height="104"/><use class="sym" href="#analyzer" transform="translate(383 214) scale(0.64)"/><text class="label" x="415" y="296">Analyzer</text>
+    <rect class="cell" x="490" y="204" width="150" height="104"/><use class="sym" href="#controller" transform="translate(533 214) scale(0.64)"/><text class="label" x="565" y="296">Controller</text>
+    <rect class="cell" x="640" y="204" width="150" height="104"/><use class="sym" href="#fit" transform="translate(683 214) scale(0.64)"/><text class="label" x="715" y="296">Fit</text>
+    <rect class="cell" x="790" y="204" width="150" height="104"/><use class="sym" href="#tit" transform="translate(833 214) scale(0.64)"/><text class="label" x="865" y="296">Tit</text>
+    <rect class="cell" x="940" y="204" width="150" height="104"/><use class="sym" href="#flow_element" transform="translate(983 214) scale(0.64)"/><text class="label" x="1015" y="296">Flow Element</text>
+    <rect class="cell" x="1090" y="204" width="150" height="104"/><use class="sym" href="#flow_indicator" transform="translate(1133 214) scale(0.64)"/><text class="label" x="1165" y="296">Flow Indicator</text>
+    <rect class="cell" x="40" y="316" width="150" height="104"/><use class="sym" href="#flow_controller" transform="translate(83 326) scale(0.64)"/><text class="label" x="115" y="408">Flow Controller</text>
+    <rect class="cell" x="190" y="316" width="150" height="104"/><use class="sym" href="#pressure_element" transform="translate(233 326) scale(0.64)"/><text class="label" x="265" y="408">Pressure Element</text>
+    <rect class="cell" x="340" y="316" width="150" height="104"/><use class="sym" href="#pressure_controller" transform="translate(383 326) scale(0.64)"/><text class="label" x="415" y="408">Pressure Controller</text>
+    <rect class="cell" x="490" y="316" width="150" height="104"/><use class="sym" href="#temperature_element" transform="translate(533 326) scale(0.64)"/><text class="label" x="565" y="408">Temperature Element</text>
+    <rect class="cell" x="640" y="316" width="150" height="104"/><use class="sym" href="#temperature_controller" transform="translate(683 326) scale(0.64)"/><text class="label" x="715" y="408">Temperature Controller</text>
+    <rect class="cell" x="790" y="316" width="150" height="104"/><use class="sym" href="#level_element" transform="translate(833 326) scale(0.64)"/><text class="label" x="865" y="408">Level Element</text>
+    <rect class="cell" x="940" y="316" width="150" height="104"/><use class="sym" href="#level_controller" transform="translate(983 326) scale(0.64)"/><text class="label" x="1015" y="408">Level Controller</text>
+    <rect class="cell" x="1090" y="316" width="150" height="104"/><use class="sym" href="#local_instrument" transform="translate(1133 326) scale(0.64)"/><text class="label" x="1165" y="408">Local Instrument</text>
+    <rect class="cell" x="40" y="428" width="150" height="104"/><use class="sym" href="#panel_instrument" transform="translate(83 438) scale(0.64)"/><text class="label" x="115" y="520">Panel Instrument</text>
+  <text class="subtitle" x="40" y="568">Valves</text>
+    <rect class="cell" x="40" y="586" width="150" height="104"/><use class="sym" href="#valve" transform="translate(83 596) scale(0.64)"/><text class="label" x="115" y="678">Valve</text>
+    <rect class="cell" x="190" y="586" width="150" height="104"/><use class="sym" href="#gate_valve" transform="translate(233 596) scale(0.64)"/><text class="label" x="265" y="678">Gate Valve</text>
+    <rect class="cell" x="340" y="586" width="150" height="104"/><use class="sym" href="#globe_valve" transform="translate(383 596) scale(0.64)"/><text class="label" x="415" y="678">Globe Valve</text>
+    <rect class="cell" x="490" y="586" width="150" height="104"/><use class="sym" href="#ball_valve" transform="translate(533 596) scale(0.64)"/><text class="label" x="565" y="678">Ball Valve</text>
+    <rect class="cell" x="640" y="586" width="150" height="104"/><use class="sym" href="#butterfly_valve" transform="translate(683 596) scale(0.64)"/><text class="label" x="715" y="678">Butterfly Valve</text>
+    <rect class="cell" x="790" y="586" width="150" height="104"/><use class="sym" href="#plug_valve" transform="translate(833 596) scale(0.64)"/><text class="label" x="865" y="678">Plug Valve</text>
+    <rect class="cell" x="940" y="586" width="150" height="104"/><use class="sym" href="#check_valve" transform="translate(983 596) scale(0.64)"/><text class="label" x="1015" y="678">Check Valve</text>
+    <rect class="cell" x="1090" y="586" width="150" height="104"/><use class="sym" href="#control_valve" transform="translate(1133 596) scale(0.64)"/><text class="label" x="1165" y="678">Control Valve</text>
+    <rect class="cell" x="40" y="698" width="150" height="104"/><use class="sym" href="#relief_valve" transform="translate(83 708) scale(0.64)"/><text class="label" x="115" y="790">Relief Valve</text>
+    <rect class="cell" x="190" y="698" width="150" height="104"/><use class="sym" href="#pressure_relief_valve" transform="translate(233 708) scale(0.64)"/><text class="label" x="265" y="790">Pressure Relief Valve</text>
+    <rect class="cell" x="340" y="698" width="150" height="104"/><use class="sym" href="#relief_angle_valve" transform="translate(383 708) scale(0.64)"/><text class="label" x="415" y="790">Relief Angle Valve</text>
+    <rect class="cell" x="490" y="698" width="150" height="104"/><use class="sym" href="#flanged_valve" transform="translate(533 708) scale(0.64)"/><text class="label" x="565" y="790">Flanged Valve</text>
+    <rect class="cell" x="640" y="698" width="150" height="104"/><use class="sym" href="#reducing_valve" transform="translate(683 708) scale(0.64)"/><text class="label" x="715" y="790">Reducing Valve</text>
+    <rect class="cell" x="790" y="698" width="150" height="104"/><use class="sym" href="#wedge_valve" transform="translate(833 708) scale(0.64)"/><text class="label" x="865" y="790">Wedge Valve</text>
+    <rect class="cell" x="940" y="698" width="150" height="104"/><use class="sym" href="#needle_valve" transform="translate(983 708) scale(0.64)"/><text class="label" x="1015" y="790">Needle Valve</text>
+    <rect class="cell" x="1090" y="698" width="150" height="104"/><use class="sym" href="#diaphragm_valve" transform="translate(1133 708) scale(0.64)"/><text class="label" x="1165" y="790">Diaphragm Valve</text>
+    <rect class="cell" x="40" y="810" width="150" height="104"/><use class="sym" href="#solenoid_valve" transform="translate(83 820) scale(0.64)"/><text class="label" x="115" y="902">Solenoid Valve</text>
+    <rect class="cell" x="190" y="810" width="150" height="104"/><use class="sym" href="#three_way_valve" transform="translate(233 820) scale(0.64)"/><text class="label" x="265" y="902">Three Way Valve</text>
+    <rect class="cell" x="340" y="810" width="150" height="104"/><use class="sym" href="#angle_valve" transform="translate(383 820) scale(0.64)"/><text class="label" x="415" y="902">Angle Valve</text>
+    <rect class="cell" x="490" y="810" width="150" height="104"/><use class="sym" href="#normally_open_valve" transform="translate(533 820) scale(0.64)"/><text class="label" x="565" y="902">Normally Open Valve</text>
+    <rect class="cell" x="640" y="810" width="150" height="104"/><use class="sym" href="#normally_closed_valve" transform="translate(683 820) scale(0.64)"/><text class="label" x="715" y="902">Normally Closed Valve</text>
+    <rect class="cell" x="790" y="810" width="150" height="104"/><use class="sym" href="#fail_open_valve" transform="translate(833 820) scale(0.64)"/><text class="label" x="865" y="902">Fail Open Valve</text>
+    <rect class="cell" x="940" y="810" width="150" height="104"/><use class="sym" href="#fail_closed_valve" transform="translate(983 820) scale(0.64)"/><text class="label" x="1015" y="902">Fail Closed Valve</text>
+    <rect class="cell" x="1090" y="810" width="150" height="104"/><use class="sym" href="#balancing_valve" transform="translate(1133 820) scale(0.64)"/><text class="label" x="1165" y="902">Balancing Valve</text>
+    <rect class="cell" x="40" y="922" width="150" height="104"/><use class="sym" href="#double_check_valve" transform="translate(83 932) scale(0.64)"/><text class="label" x="115" y="1014">Double Check Valve</text>
+    <rect class="cell" x="190" y="922" width="150" height="104"/><use class="sym" href="#backpressure_valve" transform="translate(233 932) scale(0.64)"/><text class="label" x="265" y="1014">Backpressure Valve</text>
+    <rect class="cell" x="340" y="922" width="150" height="104"/><use class="sym" href="#powered_valve" transform="translate(383 932) scale(0.64)"/><text class="label" x="415" y="1014">Powered Valve</text>
+  <text class="subtitle" x="40" y="1062">Equipment</text>
+    <rect class="cell" x="40" y="1080" width="150" height="104"/><use class="sym" href="#pump" transform="translate(83 1090) scale(0.64)"/><text class="label" x="115" y="1172">Pump</text>
+    <rect class="cell" x="190" y="1080" width="150" height="104"/><use class="sym" href="#centrifugal_pump" transform="translate(233 1090) scale(0.64)"/><text class="label" x="265" y="1172">Centrifugal Pump</text>
+    <rect class="cell" x="340" y="1080" width="150" height="104"/><use class="sym" href="#vertical_pump" transform="translate(383 1090) scale(0.64)"/><text class="label" x="415" y="1172">Vertical Pump</text>
+    <rect class="cell" x="490" y="1080" width="150" height="104"/><use class="sym" href="#compressor" transform="translate(533 1090) scale(0.64)"/><text class="label" x="565" y="1172">Compressor</text>
+    <rect class="cell" x="640" y="1080" width="150" height="104"/><use class="sym" href="#blower" transform="translate(683 1090) scale(0.64)"/><text class="label" x="715" y="1172">Blower</text>
+    <rect class="cell" x="790" y="1080" width="150" height="104"/><use class="sym" href="#fan" transform="translate(833 1090) scale(0.64)"/><text class="label" x="865" y="1172">Fan</text>
+    <rect class="cell" x="940" y="1080" width="150" height="104"/><use class="sym" href="#centrifugal_fan" transform="translate(983 1090) scale(0.64)"/><text class="label" x="1015" y="1172">Centrifugal Fan</text>
+    <rect class="cell" x="1090" y="1080" width="150" height="104"/><use class="sym" href="#tank" transform="translate(1133 1090) scale(0.64)"/><text class="label" x="1165" y="1172">Tank</text>
+    <rect class="cell" x="40" y="1192" width="150" height="104"/><use class="sym" href="#open_tank" transform="translate(83 1202) scale(0.64)"/><text class="label" x="115" y="1284">Open Tank</text>
+    <rect class="cell" x="190" y="1192" width="150" height="104"/><use class="sym" href="#closed_tank" transform="translate(233 1202) scale(0.64)"/><text class="label" x="265" y="1284">Closed Tank</text>
+    <rect class="cell" x="340" y="1192" width="150" height="104"/><use class="sym" href="#covered_tank" transform="translate(383 1202) scale(0.64)"/><text class="label" x="415" y="1284">Covered Tank</text>
+    <rect class="cell" x="490" y="1192" width="150" height="104"/><use class="sym" href="#vessel" transform="translate(533 1202) scale(0.64)"/><text class="label" x="565" y="1284">Vessel</text>
+    <rect class="cell" x="640" y="1192" width="150" height="104"/><use class="sym" href="#column" transform="translate(683 1202) scale(0.64)"/><text class="label" x="715" y="1284">Column</text>
+    <rect class="cell" x="790" y="1192" width="150" height="104"/><use class="sym" href="#reactor" transform="translate(833 1202) scale(0.64)"/><text class="label" x="865" y="1284">Reactor</text>
+    <rect class="cell" x="940" y="1192" width="150" height="104"/><use class="sym" href="#mixer" transform="translate(983 1202) scale(0.64)"/><text class="label" x="1015" y="1284">Mixer</text>
+    <rect class="cell" x="1090" y="1192" width="150" height="104"/><use class="sym" href="#heat_exchanger" transform="translate(1133 1202) scale(0.64)"/><text class="label" x="1165" y="1284">Heat Exchanger</text>
+    <rect class="cell" x="40" y="1304" width="150" height="104"/><use class="sym" href="#plate_heat_exchanger" transform="translate(83 1314) scale(0.64)"/><text class="label" x="115" y="1396">Plate Heat Exchanger</text>
+    <rect class="cell" x="190" y="1304" width="150" height="104"/><use class="sym" href="#chiller" transform="translate(233 1314) scale(0.64)"/><text class="label" x="265" y="1396">Chiller</text>
+    <rect class="cell" x="340" y="1304" width="150" height="104"/><use class="sym" href="#boiler" transform="translate(383 1314) scale(0.64)"/><text class="label" x="415" y="1396">Boiler</text>
+    <rect class="cell" x="490" y="1304" width="150" height="104"/><use class="sym" href="#cooling_tower" transform="translate(533 1314) scale(0.64)"/><text class="label" x="565" y="1396">Cooling Tower</text>
+    <rect class="cell" x="640" y="1304" width="150" height="104"/><use class="sym" href="#cyclone" transform="translate(683 1314) scale(0.64)"/><text class="label" x="715" y="1396">Cyclone</text>
+    <rect class="cell" x="790" y="1304" width="150" height="104"/><use class="sym" href="#air_handler" transform="translate(833 1314) scale(0.64)"/><text class="label" x="865" y="1396">Air Handler</text>
+    <rect class="cell" x="940" y="1304" width="150" height="104"/><use class="sym" href="#terminal_unit" transform="translate(983 1314) scale(0.64)"/><text class="label" x="1015" y="1396">Terminal Unit</text>
+    <rect class="cell" x="1090" y="1304" width="150" height="104"/><use class="sym" href="#coil" transform="translate(1133 1314) scale(0.64)"/><text class="label" x="1165" y="1396">Coil</text>
+    <rect class="cell" x="40" y="1416" width="150" height="104"/><use class="sym" href="#filter" transform="translate(83 1426) scale(0.64)"/><text class="label" x="115" y="1508">Filter</text>
+    <rect class="cell" x="190" y="1416" width="150" height="104"/><use class="sym" href="#separator" transform="translate(233 1426) scale(0.64)"/><text class="label" x="265" y="1508">Separator</text>
+    <rect class="cell" x="340" y="1416" width="150" height="104"/><use class="sym" href="#dryer" transform="translate(383 1426) scale(0.64)"/><text class="label" x="415" y="1508">Dryer</text>
+    <rect class="cell" x="490" y="1416" width="150" height="104"/><use class="sym" href="#skid" transform="translate(533 1426) scale(0.64)"/><text class="label" x="565" y="1508">Skid</text>
+    <rect class="cell" x="640" y="1416" width="150" height="104"/><use class="sym" href="#panel" transform="translate(683 1426) scale(0.64)"/><text class="label" x="715" y="1508">Panel</text>
+    <rect class="cell" x="790" y="1416" width="150" height="104"/><use class="sym" href="#patch_panel" transform="translate(833 1426) scale(0.64)"/><text class="label" x="865" y="1508">Patch Panel</text>
+    <rect class="cell" x="940" y="1416" width="150" height="104"/><use class="sym" href="#control_panel" transform="translate(983 1426) scale(0.64)"/><text class="label" x="1015" y="1508">Control Panel</text>
+    <rect class="cell" x="1090" y="1416" width="150" height="104"/><use class="sym" href="#computer_monitor" transform="translate(1133 1426) scale(0.64)"/><text class="label" x="1165" y="1508">Computer Monitor</text>
+    <rect class="cell" x="40" y="1528" width="150" height="104"/><use class="sym" href="#lcd_monitor" transform="translate(83 1538) scale(0.64)"/><text class="label" x="115" y="1620">Lcd Monitor</text>
+    <rect class="cell" x="190" y="1528" width="150" height="104"/><use class="sym" href="#motor" transform="translate(233 1538) scale(0.64)"/><text class="label" x="265" y="1620">Motor</text>
+    <rect class="cell" x="340" y="1528" width="150" height="104"/><use class="sym" href="#drive" transform="translate(383 1538) scale(0.64)"/><text class="label" x="415" y="1620">Drive</text>
+    <rect class="cell" x="490" y="1528" width="150" height="104"/><use class="sym" href="#dashpot_piston" transform="translate(533 1538) scale(0.64)"/><text class="label" x="565" y="1620">Dashpot Piston</text>
+    <rect class="cell" x="640" y="1528" width="150" height="104"/><use class="sym" href="#rotary_pump" transform="translate(683 1538) scale(0.64)"/><text class="label" x="715" y="1620">Rotary Pump</text>
+    <rect class="cell" x="790" y="1528" width="150" height="104"/><use class="sym" href="#backflow_preventer" transform="translate(833 1538) scale(0.64)"/><text class="label" x="865" y="1620">Backflow Preventer</text>
+    <rect class="cell" x="940" y="1528" width="150" height="104"/><use class="sym" href="#water_meter" transform="translate(983 1538) scale(0.64)"/><text class="label" x="1015" y="1620">Water Meter</text>
+    <rect class="cell" x="1090" y="1528" width="150" height="104"/><use class="sym" href="#equipment" transform="translate(1133 1538) scale(0.64)"/><text class="label" x="1165" y="1620">Equipment</text>
+  <text class="subtitle" x="40" y="1668">Fittings / Continuations</text>
+    <rect class="cell" x="40" y="1686" width="150" height="104"/><use class="sym" href="#offpage" transform="translate(83 1696) scale(0.64)"/><text class="label" x="115" y="1778">Offpage</text>
+    <rect class="cell" x="190" y="1686" width="150" height="104"/><use class="sym" href="#flow_arrow" transform="translate(233 1696) scale(0.64)"/><text class="label" x="265" y="1778">Flow Arrow</text>
+    <rect class="cell" x="340" y="1686" width="150" height="104"/><use class="sym" href="#tee" transform="translate(383 1696) scale(0.64)"/><text class="label" x="415" y="1778">Tee</text>
+    <rect class="cell" x="490" y="1686" width="150" height="104"/><use class="sym" href="#elbow" transform="translate(533 1696) scale(0.64)"/><text class="label" x="565" y="1778">Elbow</text>
+    <rect class="cell" x="640" y="1686" width="150" height="104"/><use class="sym" href="#cross" transform="translate(683 1696) scale(0.64)"/><text class="label" x="715" y="1778">Cross</text>
+    <rect class="cell" x="790" y="1686" width="150" height="104"/><use class="sym" href="#union" transform="translate(833 1696) scale(0.64)"/><text class="label" x="865" y="1778">Union</text>
+    <rect class="cell" x="940" y="1686" width="150" height="104"/><use class="sym" href="#reducer" transform="translate(983 1696) scale(0.64)"/><text class="label" x="1015" y="1778">Reducer</text>
+    <rect class="cell" x="1090" y="1686" width="150" height="104"/><use class="sym" href="#concentric_reducer" transform="translate(1133 1696) scale(0.64)"/><text class="label" x="1165" y="1778">Concentric Reducer</text>
+    <rect class="cell" x="40" y="1798" width="150" height="104"/><use class="sym" href="#eccentric_reducer" transform="translate(83 1808) scale(0.64)"/><text class="label" x="115" y="1890">Eccentric Reducer</text>
+    <rect class="cell" x="190" y="1798" width="150" height="104"/><use class="sym" href="#strainer" transform="translate(233 1808) scale(0.64)"/><text class="label" x="265" y="1890">Strainer</text>
+    <rect class="cell" x="340" y="1798" width="150" height="104"/><use class="sym" href="#y_strainer" transform="translate(383 1808) scale(0.64)"/><text class="label" x="415" y="1890">Y Strainer</text>
+    <rect class="cell" x="490" y="1798" width="150" height="104"/><use class="sym" href="#flange" transform="translate(533 1808) scale(0.64)"/><text class="label" x="565" y="1890">Flange</text>
+    <rect class="cell" x="640" y="1798" width="150" height="104"/><use class="sym" href="#blind_flange" transform="translate(683 1808) scale(0.64)"/><text class="label" x="715" y="1890">Blind Flange</text>
+    <rect class="cell" x="790" y="1798" width="150" height="104"/><use class="sym" href="#cap" transform="translate(833 1808) scale(0.64)"/><text class="label" x="865" y="1890">Cap</text>
+    <rect class="cell" x="940" y="1798" width="150" height="104"/><use class="sym" href="#expansion_joint" transform="translate(983 1808) scale(0.64)"/><text class="label" x="1015" y="1890">Expansion Joint</text>
+    <rect class="cell" x="1090" y="1798" width="150" height="104"/><use class="sym" href="#expansion_loop" transform="translate(1133 1808) scale(0.64)"/><text class="label" x="1165" y="1890">Expansion Loop</text>
+    <rect class="cell" x="40" y="1910" width="150" height="104"/><use class="sym" href="#flexible_connector" transform="translate(83 1920) scale(0.64)"/><text class="label" x="115" y="2002">Flexible Connector</text>
+    <rect class="cell" x="190" y="1910" width="150" height="104"/><use class="sym" href="#flexible_hose" transform="translate(233 1920) scale(0.64)"/><text class="label" x="265" y="2002">Flexible Hose</text>
+    <rect class="cell" x="340" y="1910" width="150" height="104"/><use class="sym" href="#pipe_break" transform="translate(383 1920) scale(0.64)"/><text class="label" x="415" y="2002">Pipe Break</text>
+    <rect class="cell" x="490" y="1910" width="150" height="104"/><use class="sym" href="#orifice_plate" transform="translate(533 1920) scale(0.64)"/><text class="label" x="565" y="2002">Orifice Plate</text>
+    <rect class="cell" x="640" y="1910" width="150" height="104"/><use class="sym" href="#spectacle_blind" transform="translate(683 1920) scale(0.64)"/><text class="label" x="715" y="2002">Spectacle Blind</text>
+    <rect class="cell" x="790" y="1910" width="150" height="104"/><use class="sym" href="#steam_trap" transform="translate(833 1920) scale(0.64)"/><text class="label" x="865" y="2002">Steam Trap</text>
+  <text class="subtitle" x="40" y="2050">Signal / Line Types</text>
+    <rect class="cell" x="40" y="2068" width="150" height="104"/><use class="sym" href="#pid_signal" transform="translate(83 2078) scale(0.64)"/><text class="label" x="115" y="2160">Pid Signal</text>
+    <rect class="cell" x="190" y="2068" width="150" height="104"/><use class="sym" href="#pid_data" transform="translate(233 2078) scale(0.64)"/><text class="label" x="265" y="2160">Pid Data</text>
+    <rect class="cell" x="340" y="2068" width="150" height="104"/><use class="sym" href="#pid_pneumatic" transform="translate(383 2078) scale(0.64)"/><text class="label" x="415" y="2160">Pid Pneumatic</text>
+    <rect class="cell" x="490" y="2068" width="150" height="104"/><use class="sym" href="#pid_pneumatic_binary" transform="translate(533 2078) scale(0.64)"/><text class="label" x="565" y="2160">Pid Pneumatic Binary</text>
+    <rect class="cell" x="640" y="2068" width="150" height="104"/><use class="sym" href="#pid_electric" transform="translate(683 2078) scale(0.64)"/><text class="label" x="715" y="2160">Pid Electric</text>
+    <rect class="cell" x="790" y="2068" width="150" height="104"/><use class="sym" href="#pid_electric_binary" transform="translate(833 2078) scale(0.64)"/><text class="label" x="865" y="2160">Pid Electric Binary</text>
+    <rect class="cell" x="940" y="2068" width="150" height="104"/><use class="sym" href="#pid_electromagnetic" transform="translate(983 2078) scale(0.64)"/><text class="label" x="1015" y="2160">Pid Electromagnetic</text>
+    <rect class="cell" x="1090" y="2068" width="150" height="104"/><use class="sym" href="#pid_hydraulic" transform="translate(1133 2078) scale(0.64)"/><text class="label" x="1165" y="2160">Pid Hydraulic</text>
+    <rect class="cell" x="40" y="2180" width="150" height="104"/><use class="sym" href="#pid_mechanical" transform="translate(83 2190) scale(0.64)"/><text class="label" x="115" y="2272">Pid Mechanical</text>
+    <rect class="cell" x="190" y="2180" width="150" height="104"/><use class="sym" href="#pid_capillary" transform="translate(233 2190) scale(0.64)"/><text class="label" x="265" y="2272">Pid Capillary</text>
+    <rect class="cell" x="340" y="2180" width="150" height="104"/><use class="sym" href="#pid_heat_trace" transform="translate(383 2190) scale(0.64)"/><text class="label" x="415" y="2272">Pid Heat Trace</text>
+    <rect class="cell" x="490" y="2180" width="150" height="104"/><use class="sym" href="#pid_heated_cooled" transform="translate(533 2190) scale(0.64)"/><text class="label" x="565" y="2272">Pid Heated Cooled</text>
+  <text class="subtitle" x="40" y="2320">Electrical / Controls</text>
+    <rect class="cell" x="40" y="2338" width="150" height="104"/><use class="sym" href="#junction" transform="translate(83 2348) scale(0.64)"/><text class="label" x="115" y="2430">Junction</text>
+    <rect class="cell" x="190" y="2338" width="150" height="104"/><use class="sym" href="#drain" transform="translate(233 2348) scale(0.64)"/><text class="label" x="265" y="2430">Drain</text>
+    <rect class="cell" x="340" y="2338" width="150" height="104"/><use class="sym" href="#io_point" transform="translate(383 2348) scale(0.64)"/><text class="label" x="415" y="2430">Io Point</text>
+    <rect class="cell" x="490" y="2338" width="150" height="104"/><use class="sym" href="#correcting_element" transform="translate(533 2348) scale(0.64)"/><text class="label" x="565" y="2430">Correcting Element</text>
+    <rect class="cell" x="640" y="2338" width="150" height="104"/><use class="sym" href="#pressure_sensor" transform="translate(683 2348) scale(0.64)"/><text class="label" x="715" y="2430">Pressure Sensor</text>
+    <rect class="cell" x="790" y="2338" width="150" height="104"/><use class="sym" href="#reference_circle" transform="translate(833 2348) scale(0.64)"/><text class="label" x="865" y="2430">Reference Circle</text>
+    <rect class="cell" x="940" y="2338" width="150" height="104"/><use class="sym" href="#tag_circle" transform="translate(983 2348) scale(0.64)"/><text class="label" x="1015" y="2430">Tag Circle</text>
+    <rect class="cell" x="1090" y="2338" width="150" height="104"/><use class="sym" href="#tag_square" transform="translate(1133 2348) scale(0.64)"/><text class="label" x="1165" y="2430">Tag Square</text>
+    <rect class="cell" x="40" y="2450" width="150" height="104"/><use class="sym" href="#hand_switch" transform="translate(83 2460) scale(0.64)"/><text class="label" x="115" y="2542">Hand Switch</text>
+    <rect class="cell" x="190" y="2450" width="150" height="104"/><use class="sym" href="#limit_switch" transform="translate(233 2460) scale(0.64)"/><text class="label" x="265" y="2542">Limit Switch</text>
+    <rect class="cell" x="340" y="2450" width="150" height="104"/><use class="sym" href="#position_switch" transform="translate(383 2460) scale(0.64)"/><text class="label" x="415" y="2542">Position Switch</text>
+  <text class="subtitle" x="40" y="2590">Actuators / Accessories</text>
+    <rect class="cell" x="40" y="2608" width="150" height="104"/><use class="sym" href="#pneumatic_actuator" transform="translate(83 2618) scale(0.64)"/><text class="label" x="115" y="2700">Pneumatic Actuator</text>
+    <rect class="cell" x="190" y="2608" width="150" height="104"/><use class="sym" href="#electric_actuator" transform="translate(233 2618) scale(0.64)"/><text class="label" x="265" y="2700">Electric Actuator</text>
+    <rect class="cell" x="340" y="2608" width="150" height="104"/><use class="sym" href="#handwheel_actuator" transform="translate(383 2618) scale(0.64)"/><text class="label" x="415" y="2700">Handwheel Actuator</text>
+  </g>
+
+  <defs id="supplemental-runtime-symbol-index">
+    <g id="analyzer"><circle cx="10" cy="10" r="8"/></g><use href="#analyzer"/>
+    <g id="angle_valve"><path d="M0 10 H20 V20"/></g><use href="#angle_valve"/>
+    <g id="backflow_preventer"><rect x="2" y="6" width="24" height="16" rx="4"/><path d="M6 14 L11 9 V19 Z M22 14 L17 9 V19 Z"/></g><use href="#backflow_preventer"/>
+    <g id="ball_valve"><circle cx="10" cy="10" r="6"/></g><use href="#ball_valve"/>
+    <g id="blind_flange"><path d="M0 10 H8 M10 0 V20 M16 0 V20"/></g><use href="#blind_flange"/>
+    <g id="blower"><path d="M0 12 C8 0 24 2 26 14 C28 28 8 30 0 18 Z"/></g><use href="#blower"/>
+    <g id="butterfly_valve"><path d="M0 10 H20 M4 4 L16 16"/></g><use href="#butterfly_valve"/>
+    <g id="cap"><path d="M0 10 H10 V2 H18 V18 H10"/></g><use href="#cap"/>
+    <g id="column"><rect x="6" y="0" width="12" height="28" rx="5"/></g><use href="#column"/>
+    <g id="controller"><circle cx="10" cy="10" r="8"/><path d="M2 10 H18"/></g><use href="#controller"/>
+    <g id="correcting_element"><path d="M0 10 H8 L18 2 V18 L8 10 H28"/></g><use href="#correcting_element"/>
+    <g id="cyclone"><path d="M4 0 H24 L18 14 H15 L14 28 L10 14 H7 Z"/></g><use href="#cyclone"/>
+    <g id="diaphragm_valve"><path d="M0 12 H24 M4 4 Q12 0 20 4"/></g><use href="#diaphragm_valve"/>
+    <g id="drain"><path d="M0 6 H28 M14 6 V18 L8 18 L14 26 L20 18 H14"/></g><use href="#drain"/>
+    <g id="expansion_joint"><path d="M0 10 H4 C6 0 10 20 12 10 C14 0 18 20 20 10 H24"/></g><use href="#expansion_joint"/>
+    <g id="flange"><path d="M0 10 H8 M10 0 V20 M16 0 V20 M18 10 H26"/></g><use href="#flange"/>
+    <g id="fit"><circle cx="10" cy="10" r="8"/></g><use href="#fit"/>
+    <g id="flanged_valve"><path d="M0 10 H28 M4 2 V18 M24 2 V18 M6 2 V18 L14 10 L22 2 V18 L14 10 Z"/></g><use href="#flanged_valve"/>
+    <g id="flow_transmitter"><circle cx="10" cy="10" r="8"/><path d="M2 10 H18"/></g><use href="#flow_transmitter"/>
+    <g id="flexible_connector"><path d="M0 10 H4 C6 0 10 20 12 10 C14 0 18 20 20 10 H24"/></g><use href="#flexible_connector"/>
+    <g id="globe_valve"><path d="M0 10 H24"/><circle cx="12" cy="10" r="6"/></g><use href="#globe_valve"/>
+    <g id="io_point"><rect x="4" y="4" width="20" height="20"/><circle cx="14" cy="14" r="6"/></g><use href="#io_point"/>
+    <g id="level_indicator"><circle cx="10" cy="10" r="8"/></g><use href="#level_indicator"/>
+    <g id="level_transmitter"><circle cx="10" cy="10" r="8"/><path d="M2 10 H18"/></g><use href="#level_transmitter"/>
+    <g id="mixer"><rect x="4" y="2" width="16" height="22" rx="5"/><path d="M12 0 V14 M6 16 L18 10"/></g><use href="#mixer"/>
+    <g id="needle_valve"><path d="M0 12 H24 M12 12 V0 M6 0 H18 M12 12 L20 2"/></g><use href="#needle_valve"/>
+    <g id="plug_valve"><path d="M0 10 H24"/><rect x="8" y="6" width="8" height="8"/></g><use href="#plug_valve"/>
+    <g id="pressure_indicator"><circle cx="10" cy="10" r="8"/></g><use href="#pressure_indicator"/>
+    <g id="pressure_transmitter"><circle cx="10" cy="10" r="8"/><path d="M2 10 H18"/></g><use href="#pressure_transmitter"/>
+    <g id="pid_capillary"><path d="M0 10 H28" stroke-dasharray="2 5"/></g><use href="#pid_capillary"/>
+    <g id="pid_data"><path d="M0 10 H28" stroke-dasharray="9 5"/></g><use href="#pid_data"/>
+    <g id="pid_electric"><path d="M0 10 H28" stroke-dasharray="3 3"/></g><use href="#pid_electric"/>
+    <g id="pid_heat_trace"><path d="M0 15 C5 0 10 28 15 13 C19 1 24 28 28 15"/></g><use href="#pid_heat_trace"/>
+    <g id="pid_hydraulic"><path d="M0 10 H28" stroke-dasharray="14 4 3 4"/></g><use href="#pid_hydraulic"/>
+    <g id="pid_mechanical"><path d="M0 18 L5 2 L10 18 L15 2 L20 18 L25 2"/></g><use href="#pid_mechanical"/>
+    <g id="pid_pneumatic"><path d="M0 10 H28" stroke-dasharray="1 5"/></g><use href="#pid_pneumatic"/>
+    <g id="pid_signal"><path d="M0 10 H28"/></g><use href="#pid_signal"/>
+    <g id="reactor"><rect x="4" y="2" width="16" height="22" rx="5"/><path d="M12 0 V14 M6 16 L18 10"/></g><use href="#reactor"/>
+    <g id="reducing_valve"><path d="M0 10 H28 M4 2 V18 L14 10 L24 2 V18 L14 10 Z M6 22 L22 -2"/></g><use href="#reducing_valve"/>
+    <g id="rotary_pump"><circle cx="14" cy="14" r="12"/><circle cx="10" cy="14" r="4"/><circle cx="18" cy="14" r="4"/></g><use href="#rotary_pump"/>
+    <g id="solenoid_valve"><path d="M0 12 H24"/><rect x="8" y="0" width="8" height="7"/></g><use href="#solenoid_valve"/>
+    <g id="steam_trap"><path d="M0 10 H6 L10 2 H20 L16 18 H6 Z M20 10 H26"/></g><use href="#steam_trap"/>
+    <g id="temperature_indicator"><circle cx="10" cy="10" r="8"/></g><use href="#temperature_indicator"/>
+    <g id="temperature_transmitter"><circle cx="10" cy="10" r="8"/><path d="M2 10 H18"/></g><use href="#temperature_transmitter"/>
+    <g id="tit"><circle cx="10" cy="10" r="8"/></g><use href="#tit"/>
+    <g id="three_way_valve"><path d="M0 12 H24 M12 12 V0"/></g><use href="#three_way_valve"/>
+    <g id="vertical_pump"><circle cx="10" cy="10" r="8"/><path d="M10 0 V2 M10 18 V24"/></g><use href="#vertical_pump"/>
+    <g id="water_meter"><circle cx="14" cy="14" r="10"/><path d="M7 17 A8 8 0 0 1 21 17 M14 14 L20 9"/></g><use href="#water_meter"/>
+    <g id="wedge_valve"><path d="M0 10 H28 M4 2 V18 L14 10 L24 2 V18 L14 10 Z M8 2 L20 18 M20 2 L8 18"/></g><use href="#wedge_valve"/>
+    <g id="backpressure_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z M7 3 C13 -3 23 -2 28 4 M25 1 L28 4 L24 8"/></g><use href="#backpressure_valve"/>
+    <g id="balancing_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z M8 20 L20 8 M8 8 L20 20"/></g><use href="#balancing_valve"/>
+    <g id="concentric_reducer"><path d="M0 14 H5 M23 14 H28 M5 5 H14 L23 10 V18 L14 23 H5 Z"/></g><use href="#concentric_reducer"/>
+    <g id="cross"><path d="M0 14 H28 M14 0 V28"/></g><use href="#cross"/>
+    <g id="double_check_valve"><path d="M0 14 H28 M4 6 L13 14 L4 22 M15 6 L24 14 L15 22"/></g><use href="#double_check_valve"/>
+    <g id="eccentric_reducer"><path d="M0 14 H5 M23 14 H28 M5 8 H14 L23 14 L14 20 H5 Z"/></g><use href="#eccentric_reducer"/>
+    <g id="elbow"><path d="M0 22 H12 Q22 22 22 12 V0"/></g><use href="#elbow"/>
+    <g id="electric_actuator"><rect x="5" y="2" width="18" height="12" rx="2"/><path d="M14 14 V28"/></g><use href="#electric_actuator"/>
+    <g id="expansion_loop"><path d="M0 22 H7 V6 H21 V22 H28"/></g><use href="#expansion_loop"/>
+    <g id="fail_closed_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z M8 2 L20 10 M14 7 V14"/></g><use href="#fail_closed_valve"/>
+    <g id="fail_open_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z M8 2 H20 M14 2 V9"/></g><use href="#fail_open_valve"/>
+    <g id="flexible_hose"><path d="M0 14 H4 C7 2 11 26 14 14 C17 2 21 26 24 14 H28"/></g><use href="#flexible_hose"/>
+    <g id="flow_controller"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">FIC</text></g><use href="#flow_controller"/>
+    <g id="flow_element"><circle cx="14" cy="12" r="10"/><text x="14" y="16" font-size="8" text-anchor="middle">FE</text></g><use href="#flow_element"/>
+    <g id="flow_indicator"><circle cx="14" cy="12" r="10"/><text x="14" y="16" font-size="8" text-anchor="middle">FI</text></g><use href="#flow_indicator"/>
+    <g id="hand_switch"><circle cx="14" cy="14" r="10"/><path d="M0 14 H4 M24 14 H28"/><text x="14" y="18" font-size="8" text-anchor="middle">HS</text></g><use href="#hand_switch"/>
+    <g id="handwheel_actuator"><circle cx="14" cy="10" r="8"/><path d="M6 10 H22 M14 2 V18 M14 18 V28"/></g><use href="#handwheel_actuator"/>
+    <g id="level_controller"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">LIC</text></g><use href="#level_controller"/>
+    <g id="level_element"><circle cx="14" cy="12" r="10"/><text x="14" y="16" font-size="8" text-anchor="middle">LE</text></g><use href="#level_element"/>
+    <g id="limit_switch"><circle cx="14" cy="14" r="10"/><path d="M0 14 H4 M24 14 H28"/><text x="14" y="18" font-size="8" text-anchor="middle">LS</text></g><use href="#limit_switch"/>
+    <g id="local_instrument"><circle cx="14" cy="12" r="10"/><path d="M6 21 H22"/><text x="14" y="16" font-size="8" text-anchor="middle">L</text></g><use href="#local_instrument"/>
+    <g id="normally_closed_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z M10 1 L18 9"/></g><use href="#normally_closed_valve"/>
+    <g id="normally_open_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z M9 2 H19"/></g><use href="#normally_open_valve"/>
+    <g id="orifice_plate"><path d="M0 14 H28 M14 2 V26"/><circle cx="14" cy="14" r="4"/></g><use href="#orifice_plate"/>
+    <g id="panel_instrument"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="8" text-anchor="middle">P</text></g><use href="#panel_instrument"/>
+    <g id="pipe_break"><path d="M0 14 H10 M13 4 L9 24 M19 4 L15 24 M18 14 H28"/></g><use href="#pipe_break"/>
+    <g id="pneumatic_actuator"><path d="M5 4 C5 -1 23 -1 23 4 L20 16 H8 Z M14 16 V28"/></g><use href="#pneumatic_actuator"/>
+    <g id="position_switch"><circle cx="14" cy="14" r="10"/><path d="M0 14 H4 M24 14 H28"/><text x="14" y="18" font-size="8" text-anchor="middle">ZS</text></g><use href="#position_switch"/>
+    <g id="pressure_controller"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">PIC</text></g><use href="#pressure_controller"/>
+    <g id="pressure_element"><circle cx="14" cy="12" r="10"/><text x="14" y="16" font-size="8" text-anchor="middle">PE</text></g><use href="#pressure_element"/>
+    <g id="spectacle_blind"><path d="M0 14 H7 M21 14 H28"/><circle cx="10" cy="14" r="6"/><circle cx="18" cy="14" r="6"/><path d="M14 8 V20"/></g><use href="#spectacle_blind"/>
+    <g id="tee"><path d="M0 14 H28 M14 14 V2"/></g><use href="#tee"/>
+    <g id="temperature_controller"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">TIC</text></g><use href="#temperature_controller"/>
+    <g id="temperature_element"><circle cx="14" cy="12" r="10"/><text x="14" y="16" font-size="8" text-anchor="middle">TE</text></g><use href="#temperature_element"/>
+    <g id="union"><path d="M0 14 H28 M8 5 L14 14 L8 23 M20 5 L14 14 L20 23"/></g><use href="#union"/>
+    <g id="junction"><path d="M0 14 H28 M14 0 V28"/><circle cx="14" cy="14" r="4"/></g><use href="#junction"/>
+
+    <g id="centrifugal_fan"><path d="M0 16 H7 M21 14 H28 M6 8 C12 -1 25 4 25 15 C25 27 10 28 5 19 Z"/><path d="M14 16 Q17 7 14 4 M14 16 Q23 18 24 12 M14 16 Q8 20 7 25"/></g><use href="#centrifugal_fan"/>
+    <g id="centrifugal_pump"><circle cx="14" cy="14" r="11"/><path d="M8 11 C14 4 24 10 23 15 C22 21 13 25 8 18"/><path d="M21 10 Q29 13 25 21"/></g><use href="#centrifugal_pump"/>
+    <g id="closed_tank"><path d="M7 5 C7 1 21 1 21 5 V23 C21 27 7 27 7 23 Z"/><ellipse cx="14" cy="5" rx="7" ry="2"/><ellipse cx="14" cy="23" rx="7" ry="2"/><path d="M7 14 H21"/></g><use href="#closed_tank"/>
+    <g id="control_panel"><rect x="7" y="2" width="14" height="24"/><circle cx="14" cy="7" r="2"/><path d="M10 12 H18 M10 17 H18 M10 22 H18"/></g><use href="#control_panel"/>
+    <g id="covered_tank"><path d="M7 6 C7 2 21 2 21 6 V23 C21 27 7 27 7 23 Z"/><path d="M5 7 L14 0 L23 7"/><ellipse cx="14" cy="23" rx="7" ry="2"/></g><use href="#covered_tank"/>
+    <g id="computer_monitor"><rect x="4" y="4" width="20" height="15" rx="2"/><path d="M12 19 L10 25 H18 L16 19 M8 25 H20"/></g><use href="#computer_monitor"/>
+    <g id="dashpot_piston"><rect x="5" y="7" width="18" height="15" rx="3"/><path d="M14 7 V22 M0 14 H5 M23 14 H28 M8 11 H14 M14 18 H20"/></g><use href="#dashpot_piston"/>
+    <g id="lcd_monitor"><rect x="4" y="4" width="20" height="15" rx="2"/><path d="M8 15 H20 M12 19 L10 25 H18 L16 19"/></g><use href="#lcd_monitor"/>
+    <g id="open_tank"><path d="M7 5 V23 C7 27 21 27 21 23 V5"/><path d="M7 5 C10 8 18 8 21 5"/><ellipse cx="14" cy="23" rx="7" ry="2"/></g><use href="#open_tank"/>
+    <g id="patch_panel"><rect x="7" y="2" width="14" height="24"/><path d="M10 7 H18 M10 12 H18 M10 17 H18 M10 22 H18"/></g><use href="#patch_panel"/>
+    <g id="pid_electric_binary"><path d="M0 14 H28" stroke-dasharray="3 3 10 3"/></g><use href="#pid_electric_binary"/>
+    <g id="pid_electromagnetic"><path d="M0 14 H28" stroke-dasharray="8 3 2 3"/><path d="M5 8 C9 0 14 16 19 8 M5 20 C9 28 14 12 19 20"/></g><use href="#pid_electromagnetic"/>
+    <g id="pid_heated_cooled"><path d="M0 14 H28" stroke-dasharray="6 3"/><path d="M2 20 C8 4 14 24 20 8 C23 3 26 8 28 14"/></g><use href="#pid_heated_cooled"/>
+    <g id="pid_pneumatic_binary"><path d="M0 14 H28" stroke-dasharray="1 4 10 4"/></g><use href="#pid_pneumatic_binary"/>
+    <g id="plate_heat_exchanger"><rect x="5" y="3" width="18" height="22" rx="3"/><path d="M9 5 L13 23 M13 5 L17 23 M17 5 L21 23 M0 14 H5 M23 14 H28"/></g><use href="#plate_heat_exchanger"/>
+    <g id="powered_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z M14 14 V5"/><rect x="9" y="0" width="10" height="6" rx="1"/></g><use href="#powered_valve"/>
+    <g id="pressure_relief_valve"><path d="M0 16 H28 M5 8 V24 L14 16 L22 8 V24 L14 16 Z M20 16 V4 M15 5 C18 -1 25 -1 28 5"/></g><use href="#pressure_relief_valve"/>
+    <g id="pressure_sensor"><circle cx="14" cy="12" r="10"/><path d="M14 22 V28"/><text x="14" y="16" font-size="8" text-anchor="middle">P</text></g><use href="#pressure_sensor"/>
+    <g id="reference_circle"><circle cx="14" cy="14" r="10"/><path d="M6 14 H22"/></g><use href="#reference_circle"/>
+    <g id="relief_angle_valve"><path d="M0 16 H28 M14 16 V28 M5 8 V24 L14 16 L22 8 V24 L14 16 Z M20 16 V4 M15 5 C18 -1 25 -1 28 5"/></g><use href="#relief_angle_valve"/>
+    <g id="tag_circle"><circle cx="14" cy="14" r="9"/></g><use href="#tag_circle"/>
+    <g id="tag_square"><rect x="6" y="6" width="16" height="16"/></g><use href="#tag_square"/>
+    <g id="y_strainer"><path d="M0 12 H7 L20 12 L26 18 L20 24 H7 Z M15 23 L24 28 M10 20 L18 8 M16 22 L24 10"/></g><use href="#y_strainer"/>
+    <g id="circuit_breaker" class="sym"><line x1="0" y1="60" x2="30" y2="60"/><line x1="70" y1="60" x2="100" y2="60"/><rect class="fill" x="32" y="42" width="36" height="28" rx="4"/><path d="M42 56 H58 M58 56 L52 48"/></g><use href="#circuit_breaker"/>
+    <g id="disconnect_switch" class="sym"><path d="M0 60 H36 M64 60 H100 M36 60 L66 28"/></g><use href="#disconnect_switch"/>
+    <g id="ejector" class="sym"><line x1="0" y1="52" x2="20" y2="52"/><line x1="80" y1="52" x2="100" y2="52"/><path class="fill" d="M20 36 L56 48 L80 30 L80 74 L56 56 L20 68 Z"/><line x1="50" y1="0" x2="50" y2="42"/></g><use href="#ejector"/>
+    <g id="expansion_bellows" class="sym"><line x1="0" y1="50" x2="22" y2="50"/><line x1="78" y1="50" x2="100" y2="50"/><path d="M24 30 L32 70 L40 30 L48 70 L56 30 L64 70 L72 30"/></g><use href="#expansion_bellows"/>
+    <g id="flame_arrester" class="sym"><line x1="0" y1="52" x2="18" y2="52"/><line x1="82" y1="52" x2="100" y2="52"/><rect class="fill" x="20" y="26" width="60" height="52" rx="8"/><path d="M34 70 C28 54 44 54 42 38 C54 50 64 58 58 72"/></g><use href="#flame_arrester"/>
+    <g id="hopper" class="sym"><line x1="50" y1="0" x2="50" y2="16"/><path class="fill" d="M22 18 H78 L64 70 L56 70 V92 H44 V70 H36 Z"/></g><use href="#hopper"/>
+    <g id="horizontal_vessel" class="sym"><line x1="0" y1="52" x2="18" y2="52"/><line x1="82" y1="52" x2="100" y2="52"/><path class="fill" d="M22 30 C14 30 14 70 22 70 L78 70 C86 70 86 30 78 30 Z"/><line x1="32" y1="70" x2="28" y2="86"/><line x1="68" y1="70" x2="72" y2="86"/></g><use href="#horizontal_vessel"/>
+    <g id="knife_gate_valve" class="sym"><line x1="0" y1="50" x2="100" y2="50"/><polygon class="fill" points="16 18 16 82 50 50"/><polygon class="fill" points="84 18 84 82 50 50"/><path d="M50 50 L50 12 M36 12 H64 M38 20 L62 80"/></g><use href="#knife_gate_valve"/>
+    <g id="line_blind" class="sym"><line x1="0" y1="50" x2="100" y2="50"/><line x1="48" y1="20" x2="48" y2="80"/><path d="M58 24 L76 76"/></g><use href="#line_blind"/>
+    <g id="pipe_anchor" class="sym"><path d="M0 50 H100 M50 50 V80 M30 80 H70 M36 90 H64"/></g><use href="#pipe_anchor"/>
+    <g id="plc" class="sym"><line x1="0" y1="52" x2="22" y2="52"/><line x1="78" y1="52" x2="100" y2="52"/><rect class="fill" x="24" y="18" width="52" height="64" rx="4"/><path d="M34 30 H66 M34 44 H66 M34 58 H66"/><circle cx="64" cy="70" r="5"/></g><use href="#plc"/>
+    <g id="pressure_regulator" class="sym"><line x1="0" y1="50" x2="100" y2="50"/><polygon class="fill" points="16 18 16 82 50 50"/><polygon class="fill" points="84 18 84 82 50 50"/><path d="M50 50 V18 M34 22 H66 M38 28 H62 M42 34 H58 M58 18 C72 12 82 22 78 36"/></g><use href="#pressure_regulator"/>
+    <g id="rupture_disk" class="sym"><line x1="0" y1="50" x2="36" y2="50"/><line x1="64" y1="50" x2="100" y2="50"/><path d="M42 24 C58 36 58 64 42 76 M58 24 C42 36 42 64 58 76"/></g><use href="#rupture_disk"/>
+    <g id="sample_point" class="sym"><path d="M0 56 H44 V24 M34 24 H54 M44 24 L64 8"/></g><use href="#sample_point"/>
+    <g id="sight_glass" class="sym"><line x1="0" y1="50" x2="28" y2="50"/><line x1="72" y1="50" x2="100" y2="50"/><rect class="fill" x="30" y="28" width="40" height="44" rx="10"/><circle cx="50" cy="50" r="12"/></g><use href="#sight_glass"/>
+    <g id="silencer" class="sym"><line x1="0" y1="52" x2="18" y2="52"/><line x1="82" y1="52" x2="100" y2="52"/><rect class="fill" x="20" y="28" width="60" height="48" rx="12"/><path d="M32 36 H68 M32 52 H68 M32 68 H68"/></g><use href="#silencer"/>
+    <g id="spray_nozzle" class="sym"><line x1="50" y1="0" x2="50" y2="34"/><path class="fill" d="M32 34 H68 L56 56 H44 Z"/><path d="M34 70 L20 94 M50 70 V98 M66 70 L80 94" stroke-dasharray="4 4"/></g><use href="#spray_nozzle"/>
+    <g id="terminal_block" class="sym"><line x1="0" y1="52" x2="20" y2="52"/><line x1="80" y1="52" x2="100" y2="52"/><rect class="fill" x="22" y="28" width="56" height="48" rx="4"/><path d="M36 28 V76 M50 28 V76 M64 28 V76"/></g><use href="#terminal_block"/>
+    <g id="transformer" class="sym"><line x1="0" y1="52" x2="26" y2="52"/><line x1="74" y1="52" x2="100" y2="52"/><circle class="fill" cx="41" cy="52" r="18"/><circle class="fill" cx="59" cy="52" r="18"/></g><use href="#transformer"/>
+    <g id="vent" class="sym"><path d="M0 70 H50 V28 M34 28 H66 M40 18 H60 M46 8 H54"/></g><use href="#vent"/>
+    <g id="vertical_vessel" class="sym"><line x1="50" y1="0" x2="50" y2="14"/><line x1="50" y1="86" x2="50" y2="100"/><path class="fill" d="M28 16 C28 8 72 8 72 16 L72 84 C72 92 28 92 28 84 Z"/><ellipse cx="50" cy="18" rx="22" ry="7"/><ellipse cx="50" cy="82" rx="22" ry="7"/></g><use href="#vertical_vessel"/>
+    <g id="vfd" class="sym"><line x1="0" y1="52" x2="22" y2="52"/><line x1="78" y1="52" x2="100" y2="52"/><rect class="fill" x="24" y="18" width="52" height="64" rx="4"/><path d="M34 30 H66 M34 44 H66 M34 58 H66 M34 70 L44 62 L54 78 L66 62"/></g><use href="#vfd"/>
+
+  <!-- Supplemental generated symbols: expanded stencil coverage -->
+    <g id="alarm"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">A</text></g><use href="#alarm"/>
+    <g id="bag_filter"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#bag_filter"/>
+    <g id="cable_tray"><rect x="2" y="7" width="24" height="14"/><path d="M8 7 V21 M14 7 V21 M20 7 V21"/></g><use href="#cable_tray"/>
+    <g id="cartridge_filter"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#cartridge_filter"/>
+    <g id="centrifugal_separator"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#centrifugal_separator"/>
+    <g id="chemical_tote"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#chemical_tote"/>
+    <g id="contactor"><rect x="6" y="4" width="16" height="22" rx="2"/><path d="M0 14 H6 M22 14 H28 M10 10 H18 M10 18 H18"/></g><use href="#contactor"/>
+    <g id="conveyor"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#conveyor"/>
+    <g id="damper"><rect x="2" y="7" width="24" height="14"/><path d="M6 20 L22 8"/></g><use href="#damper"/>
+    <g id="differential_pressure_transmitter"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">DPT</text></g><use href="#differential_pressure_transmitter"/>
+    <g id="drum"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#drum"/>
+    <g id="duct_transition"><path d="M0 14 H5 L24 4 V24 L5 14 H28"/></g><use href="#duct_transition"/>
+    <g id="float_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z"/></g><use href="#float_valve"/>
+    <g id="flow_switch"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">FS</text></g><use href="#flow_switch"/>
+    <g id="foot_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z"/></g><use href="#foot_valve"/>
+    <g id="fuse"><rect x="6" y="4" width="16" height="22" rx="2"/><path d="M0 14 H6 M22 14 H28 M10 10 H18 M10 18 H18"/></g><use href="#fuse"/>
+    <g id="ground"><path d="M14 0 V12 M4 12 H24 M7 18 H21 M10 24 H18"/></g><use href="#ground"/>
+    <g id="indicator_light"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">IL</text></g><use href="#indicator_light"/>
+    <g id="level_switch"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">LS</text></g><use href="#level_switch"/>
+    <g id="motor_starter"><rect x="6" y="4" width="16" height="22" rx="2"/><path d="M0 14 H6 M22 14 H28 M10 10 H18 M10 18 H18"/></g><use href="#motor_starter"/>
+    <g id="panelboard"><rect x="6" y="4" width="16" height="22" rx="2"/><path d="M0 14 H6 M22 14 H28 M10 10 H18 M10 18 H18"/></g><use href="#panelboard"/>
+    <g id="pinch_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z"/></g><use href="#pinch_valve"/>
+    <g id="piston_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z"/></g><use href="#piston_valve"/>
+    <g id="pressure_switch"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">PS</text></g><use href="#pressure_switch"/>
+    <g id="recorder"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">R</text></g><use href="#recorder"/>
+    <g id="relay"><rect x="6" y="4" width="16" height="22" rx="2"/><path d="M0 14 H6 M22 14 H28 M10 10 H18 M10 18 H18"/></g><use href="#relay"/>
+    <g id="safety_valve"><path d="M0 14 H28 M4 6 V22 L14 14 L24 6 V22 L14 14 Z"/></g><use href="#safety_valve"/>
+    <g id="scale"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#scale"/>
+    <g id="tank_mixer"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#tank_mixer"/>
+    <g id="temperature_switch"><circle cx="14" cy="12" r="10"/><path d="M4 12 H24"/><text x="14" y="16" font-size="7" text-anchor="middle">TS</text></g><use href="#temperature_switch"/>
+    <g id="ups"><rect x="6" y="4" width="16" height="22" rx="2"/><path d="M0 14 H6 M22 14 H28 M10 10 H18 M10 18 H18"/></g><use href="#ups"/>
+    <g id="vacuum_breaker"><rect x="5" y="4" width="18" height="20" rx="3"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 19 H19"/></g><use href="#vacuum_breaker"/>
+
+  <!-- Supplemental generated symbols: field completeness batch -->
+    <g id="basket_strainer"><path d="M0 14 H6 L22 14 L27 20 L22 26 H6 Z M14 25 L24 30 M10 22 L18 8 M16 24 L24 10"/></g><use href="#basket_strainer"/>
+    <g id="duplex_strainer"><path d="M0 14 H6 L22 14 L27 20 L22 26 H6 Z M14 25 L24 30 M10 22 L18 8 M16 24 L24 10"/></g><use href="#duplex_strainer"/>
+    <g id="temporary_strainer"><path d="M0 14 H6 L22 14 L27 20 L22 26 H6 Z M14 25 L24 30 M10 22 L18 8 M16 24 L24 10"/></g><use href="#temporary_strainer"/>
+    <g id="static_mixer"><path d="M0 14 H5 M23 14 H28"/><rect x="5" y="8" width="18" height="12" rx="2"/><path d="M8 18 L13 9 L18 18 M11 9 L16 18 L21 9"/></g><use href="#static_mixer"/>
+    <g id="inline_mixer"><path d="M0 14 H5 M23 14 H28"/><rect x="5" y="8" width="18" height="12" rx="2"/><path d="M8 18 L13 9 L18 18 M11 9 L16 18 L21 9"/></g><use href="#inline_mixer"/>
+    <g id="injection_quill"><path d="M0 14 H12 V6 H22 M16 6 L26 14 M18 22 H28"/></g><use href="#injection_quill"/>
+    <g id="sample_probe"><path d="M0 14 H12 V6 H22 M16 6 L26 14 M18 22 H28"/></g><use href="#sample_probe"/>
+    <g id="calibration_column"><rect x="10" y="2" width="8" height="24" rx="3"/><path d="M18 7 H24 M18 13 H22 M18 19 H24"/></g><use href="#calibration_column"/>
+    <g id="open_drain"><path d="M0 8 H28 M14 8 V20"/><polygon points="8 20 20 20 14 28"/></g><use href="#open_drain"/>
+    <g id="closed_drain"><path d="M0 8 H28 M14 8 V20"/><polygon points="8 20 20 20 14 28"/></g><use href="#closed_drain"/>
+    <g id="floor_drain"><path d="M0 8 H28 M14 8 V20"/><polygon points="8 20 20 20 14 28"/></g><use href="#floor_drain"/>
+    <g id="cleanout"><path d="M0 8 H28 M14 8 V20"/><polygon points="8 20 20 20 14 28"/></g><use href="#cleanout"/>
+    <g id="hose_bib"><path d="M0 14 H12 V6 H22 M16 6 L26 14 M18 22 H28"/></g><use href="#hose_bib"/>
+    <g id="quick_connect"><path d="M0 14 H12 V6 H22 M16 6 L26 14 M18 22 H28"/></g><use href="#quick_connect"/>
+    <g id="pipe_support"><path d="M0 10 H28 M14 10 V22 M7 22 H21 M10 27 H18"/></g><use href="#pipe_support"/>
+    <g id="guide_support"><path d="M0 10 H28 M14 10 V22 M7 22 H21 M10 27 H18"/></g><use href="#guide_support"/>
+    <g id="spring_hanger"><path d="M0 10 H28 M14 10 V22 M7 22 H21 M10 27 H18"/></g><use href="#spring_hanger"/>
+    <g id="vent_silencer"><path d="M14 28 V4 M7 4 H21 M9 0 H19 M5 18 H23"/></g><use href="#vent_silencer"/>
+    <g id="relief_stack"><path d="M14 28 V4 M7 4 H21 M9 0 H19 M5 18 H23"/></g><use href="#relief_stack"/>
+    <g id="flame_detector"><circle cx="14" cy="12" r="10"/><path d="M14 22 V28"/><text x="14" y="16" font-size="7" text-anchor="middle">FD</text></g><use href="#flame_detector"/>
+    <g id="gas_detector"><circle cx="14" cy="12" r="10"/><path d="M14 22 V28"/><text x="14" y="16" font-size="7" text-anchor="middle">GD</text></g><use href="#gas_detector"/>
+    <g id="smoke_detector"><circle cx="14" cy="12" r="10"/><path d="M14 22 V28"/><text x="14" y="16" font-size="7" text-anchor="middle">SD</text></g><use href="#smoke_detector"/>
+    <g id="safety_shower"><path d="M14 0 V28 M6 6 H22 M8 12 L3 23 M14 12 V24 M20 12 L25 23"/></g><use href="#safety_shower"/>
+    <g id="eyewash"><path d="M14 0 V28 M6 6 H22 M8 12 L3 23 M14 12 V24 M20 12 L25 23"/></g><use href="#eyewash"/>
+    <g id="fire_damper"><rect x="4" y="7" width="20" height="14"/><path d="M8 20 L20 8 M14 7 V21"/></g><use href="#fire_damper"/>
+    <g id="duct_filter"><rect x="4" y="7" width="20" height="14"/><path d="M8 20 L20 8 M14 7 V21"/></g><use href="#duct_filter"/>
+    <g id="duct_coil"><rect x="4" y="7" width="20" height="14"/><path d="M8 20 L20 8 M14 7 V21"/></g><use href="#duct_coil"/>
+    <g id="vav_box"><rect x="4" y="7" width="20" height="14"/><path d="M8 20 L20 8 M14 7 V21"/></g><use href="#vav_box"/>
+    <g id="junction_box"><rect x="5" y="4" width="18" height="20" rx="2"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 14 H19 M9 19 H19"/></g><use href="#junction_box"/>
+    <g id="pull_box"><rect x="5" y="4" width="18" height="20" rx="2"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 14 H19 M9 19 H19"/></g><use href="#pull_box"/>
+    <g id="control_station"><rect x="5" y="4" width="18" height="20" rx="2"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 14 H19 M9 19 H19"/></g><use href="#control_station"/>
+    <g id="network_switch"><rect x="5" y="4" width="18" height="20" rx="2"/><path d="M0 14 H5 M23 14 H28 M9 9 H19 M9 14 H19 M9 19 H19"/></g><use href="#network_switch"/>
+</defs>
+</svg>
