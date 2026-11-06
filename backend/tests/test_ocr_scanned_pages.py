@@ -73,7 +73,9 @@ class RasterStressPackageOcrTests(unittest.TestCase):
             text=True,
         )
         cls.truth = json.loads((out / "manifest.json").read_text())["groundTruth"]["raster_scanned_pid"]["tags"]
-        cls.pages = extract_pid_evidence("stress", "src_raster", out / "raster_scanned_pid_package.pdf")
+        pdf = out / "raster_scanned_pid_package.pdf"
+        cls.pages = extract_pid_evidence("stress", "src_raster", pdf)
+        cls.forced_pages = extract_pid_evidence("stress", "src_raster", pdf, ocr_mode="always")
 
     @classmethod
     def tearDownClass(cls):
@@ -83,11 +85,18 @@ class RasterStressPackageOcrTests(unittest.TestCase):
         self.assertEqual({page.metadata["textExtraction"]["vectorCount"] for page in self.pages}, {0})
         self.assertTrue(all(page.metadata["textExtraction"]["ocrSpanCount"] > 0 for page in self.pages))
 
-    def test_auto_mode_recovers_a_useful_share_of_the_tags(self):
-        text = " ".join(span.text for page in self.pages for span in page.textSpans)
-        found = [tag for tag in self.truth if re.search(r"(?<![A-Z0-9-])" + re.escape(tag) + r"(?![A-Z0-9])", text)]
-        # OCR on these deliberately degraded sheets is imperfect; locally it finds 30 of 60.
-        self.assertGreaterEqual(len(found), 20, f"found {len(found)} of {len(self.truth)} tags")
+    def _found_tags(self, pages):
+        text = " ".join(span.text for page in pages for span in page.textSpans)
+        return [tag for tag in self.truth if re.search(r"(?<![A-Z0-9-])" + re.escape(tag) + r"(?![A-Z0-9])", text)]
+
+    def test_auto_mode_recovers_as_many_tags_as_forced_ocr(self):
+        # How many tags OCR can read on these degraded sheets depends on the Tesseract build and
+        # language data (30 of 60 with Tesseract 5.5 on macOS, fewer with Ubuntu's 4.1 data), so
+        # the check is that auto mode gets everything forced OCR gets, not a fixed count.
+        auto = self._found_tags(self.pages)
+        forced = self._found_tags(self.forced_pages)
+        self.assertGreater(len(forced), 0, "forced OCR found no tags; is Tesseract working?")
+        self.assertEqual(sorted(auto), sorted(forced), f"auto found {len(auto)}, forced found {len(forced)} of {len(self.truth)}")
 
 
 if __name__ == "__main__":
