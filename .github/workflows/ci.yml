@@ -28,5 +28,7 @@ jobs:
           cache: pip
           cache-dependency-path: backend/requirements.txt
       - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
+      - name: Point PyMuPDF at the Tesseract language data
+        run: echo "TESSDATA_PREFIX=$(dirname "$(dpkg -L tesseract-ocr-eng | grep 'eng.traineddata$')")" >> "$GITHUB_ENV"
       - run: pip install -r backend/requirements.txt
       - run: python backend/run_tests.py
